@@ -1,0 +1,41 @@
+1 @SPLIT OSI参照モデルの各層の名称を選択せよ-6層の名称は() @SPLIT 4 @SPLIT B
+A @SPLIT アプリケーション層
+B @SPLIT プレゼンテーション層
+C @SPLIT ネットワーク層
+D @SPLIT データリング層
+2 @SPLIT OSI参照モデルの各層の名称を選択せよ-3層の名称は()  @SPLIT 4 @SPLIT A
+A @SPLIT ネットワーク層
+B @SPLIT セッション層層
+C @SPLIT データリング層
+D @SPLIT トランスポート層
+3 @SPLIT OSI参照モデルの各層の名称を選択せよ-1層の名称は()  @SPLIT 4 @SPLIT D
+A @SPLIT トランスポート層
+B @SPLIT データリング層
+C @SPLIT  ネットワーク層
+D @SPLIT 物理層
+4 @SPLIT OSI参照モデルの各層の機能に関する説明文から対応するものを選択せよ-1層の機能は() @SPLIT 4 @SPLIT B
+A @SPLIT 特定のアプリケーションに特化したプロトコル
+B @SPLIT ビット列を電圧の高低などに変換したり、逆に電圧の高低などをビット列に変換
+C @SPLIT 通信の管理。コネクションの確立と切断
+D @SPLIT 直接接続された機器間でのデータフレームの識別と転送
+5 @SPLIT OSI参照モデルの各層の機能に関する説明文から対応するものを選択せよ-5層の機能は() @SPLIT 4 @SPLIT C
+A @SPLIT 特定のアプリケーションに特化したプロトコル
+B @SPLIT ビット列を電圧の高低などに変換したり、逆に電圧の高低などをビット列に変換
+C @SPLIT 通信の管理。コネクションの確立と切断
+D @SPLIT 直接接続された機器間でのデータフレームの識別と転送
+6 @SPLIT OSI参照モデルの各層の機能に関する説明文から対応するものを選択せよ-2層の機能は() @SPLIT 4 @SPLIT D
+A @SPLIT 特定のアプリケーションに特化したプロトコル
+B @SPLIT ビット列を電圧の高低などに変換したり、逆に電圧の高低などをビット列に変換
+C @SPLIT 通信の管理。コネクションの確立と切断
+D @SPLIT 直接接続された機器間でのデータフレームの識別と転送
+7 @SPLIT IPアドレスからMACアドレスを知るためのプロトコル(1)と電子メールを送信するためのプロトコル(2)を選択せよ @SPLIT [javax.swing.JCheckBox[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@5d989e8d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=A.ARP], javax.swing.JCheckBox[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@5d989e8d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=B.TCP], javax.swing.JCheckBox[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@5d989e8d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=C.PIP], javax.swing.JCheckBox[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@5d989e8d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=D.IMAP], javax.swing.JCheckBox[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@5d989e8d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=E.SMTP]] @SPLIT AE
+A @SPLIT ARP
+B @SPLIT TCP
+C @SPLIT PIP
+D @SPLIT IMAP
+E @SPLIT SMTP
+8 @SPLIT 1+1=() @SPLIT 4 @SPLIT A
+A @SPLIT 1
+B @SPLIT 2
+C @SPLIT 3
+D @SPLIT 4
