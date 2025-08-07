@@ -75,20 +75,14 @@ java MainFrame
 ### 開発環境
 - **言語**: Java
 - **GUI Framework**: Swing
-- **IDE**: IntelliJ IDEA（.imlファイルから推定）
+- **IDE**: IntelliJ IDEA
 - **データ保存**: テキストファイル（UTF-8）
 
 ### システム要件
 - **Java**: JDK 8以上
-- **OS**: Windows, macOS, Linux
+- **OS**: Windows
 - **メモリ**: 最小256MB RAM
 - **ストレージ**: 50MB以上
-
-### アーキテクチャ特徴
-- **MVC パターン**: モデル、ビュー、コントローラーの分離
-- **イベント駆動**: ActionListener による操作処理
-- **ファイルI/O**: BufferedReader/FileWriter によるデータ永続化
-- **動的UI**: 問題形式に応じた動的コンポーネント生成
 
 ## 問題集ファイル形式 📝
 
@@ -142,117 +136,12 @@ java MainFrame
 ### 3. 問題集サンプル
 付属の `問題集例.txt` を使用して動作確認が可能です。
 
-## カスタマイズ 🛠️
-
-### 1. 新しいボタンの追加
-```java
-// MainFrame.java に新機能ボタンを追加
-private JButton newFeatureBtn = new JButton("新機能");
-
-// コンストラクタで初期化
-controlPanel.add(newFeatureBtn);
-newFeatureBtn.addActionListener(this);
-```
-
-### 2. 問題形式の拡張
-```java
-// Question.java に新しいフィールドを追加
-private String category;  // 問題カテゴリ
-private int difficulty;   // 難易度レベル
-```
-
-### 3. 採点アルゴリズムのカスタマイズ
-```java
-// MainFrame.java の採点部分を修正
-if(inputAnswer.equals(correctAnswer)){
-    // 完全正解の処理
-    multiNum++;
-} else {
-    // 部分正解の判定ロジック
-}
-```
-
-## トラブルシューティング 🔧
-
-### よくある問題
-
-#### ❌ `java.io.FileNotFoundException`
-**原因**: 問題集ファイルが見つからない
-**解決**: 
-- ファイルパスを確認
-- ファイルが存在するか確認
-- 読み取り権限があるか確認
-
-#### ❌ `ArrayIndexOutOfBoundsException`
-**原因**: 問題ファイルの形式が正しくない
-**解決**:
-- `@SPLIT` 区切り文字を確認
-- 問題行に4つのフィールドがあるか確認
-- 選択肢行に2つのフィールドがあるか確認
-
-#### ❌ GUI表示の問題
-**原因**: Java Swing の Look & Feel 問題
-**解決**:
-```java
-// MainFrame コンストラクタに追加
-try {
-    UIManager.setLookAndFeel(UIManager.getSystemLookAndFeel());
-} catch (Exception e) {
-    e.printStackTrace();
-}
-```
-
-#### ❌ 文字化け
-**原因**: ファイルエンコーディングの不一致
-**解決**:
-```java
-// UTF-8 でファイル読み込み
-BufferedReader br = new BufferedReader(
-    new InputStreamReader(new FileInputStream(f), "UTF-8")
-);
-```
-
-### デバッグ方法
-```java
-// コンソール出力でデバッグ情報を確認
-System.out.println("問題文: " + question.getDesc());
-System.out.println("正解: " + question.getCorrectAnswer());
-System.out.println("選択肢数: " + question.getBtns().size());
-```
-
-## 開発者向け情報 👨‍💻
 
 ### 拡張可能な機能
-- **統計機能**: 正答率、学習履歴の追跡
-- **タイマー機能**: 制限時間付きクイズ
-- **データベース対応**: ファイルベースからDB移行
-- **オンライン機能**: サーバーとの同期
-- **問題カテゴリ**: 分野別問題管理
+- 正答率、学習履歴の追跡
+- 制限時間付きクイズ
+- ファイルベースからDB移行
+- 画像の使用
+- サーバーとの同期
 
-### コードの改善点
-- **例外処理**: より詳細なエラーハンドリング
-- **設定ファイル**: アプリケーション設定の外部化
-- **国際化対応**: 多言語サポート
-- **テスト**: JUnit によるユニットテスト追加
 
-### 貢献方法
-1. Issueを作成して機能要求や不具合を報告
-2. Forkしてプルリクエストを送信
-3. ドキュメントの改善
-4. 新しい問題集の作成・共有
-
-## ライセンス 📄
-
-このプロジェクトは教育目的で作成されています。自由にご利用・改変いただけます。
-
-## サポート 📞
-
-問題や質問がある場合：
-1. コードの動作を確認
-2. ログ出力でエラー内容を特定
-3. 問題ファイルのフォーマットを確認
-4. Java環境の確認
-
----
-
-**AnswerSofter** で効率的な学習を始めましょう！🎓
